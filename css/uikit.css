@@ -436,7 +436,7 @@ template {
   --uk-breakpoint-s: 640px;
   --uk-breakpoint-m: 960px;
   --uk-breakpoint-l: 1200px;
-  --uk-breakpoint-xl: 1600px;
+  --uk-breakpoint-xl: 1366px;
 }
 /* ========================================================================
    Component: Link

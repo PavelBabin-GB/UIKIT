@@ -85,7 +85,7 @@
     </div>
   </nav>
 
-  <div class="uk-container uk-container-xsmall">
+  <div class="container uk-container uk-container-xsmall uk-background-muted">
     <h2 class="uk-heading-primary">Заголовок</h2>
     <p class="uk-text-meta">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, autem. Doloremque commodi
       molestiae consectetur a! Id, doloremque laudantium quia blanditiis incidunt quidem. Inventore officiis rem, natus
@@ -96,23 +96,31 @@
       <div class="uk-margin">
         <label class="uk-form-label" for="form-horizontal-text">Название</label>
         <div class="uk-form-controls">
-          <input class="uk-input uk-form-width-medium" id="form-horizontal-text" type="text"
+          <input class="uk-input uk-form-width-medium uk-width-1-2" id="form-horizontal-text" type="text"
             placeholder="Какой-то текст...">
         </div>
       </div>
       <div class="uk-margin">
         <div class="uk-form-label">Название</div>
         <div class="uk-form-controls  uk-form-controls-text">
-          <input class="uk-checkbox uk-form-width-medium" type="checkbox">
+          <input class="uk-checkbox uk-form-width-medium uk-background-default" type="checkbox">
         </div>
       </div>
       <div class="uk-margin">
         <label class="uk-form-label" for="form-horizontal-select">Название</label>
         <div class="uk-form-controls">
-          <select class="uk-select uk-form-width-medium" id="form-horizontal-select">
-            <option>Опция 01</option>
-            <option>Опция 02</option>
-          </select>
+          <button class="uk-button uk-button-default uk-width-1-2 uk-background-default" type="button">Наведение</button>
+          <div uk-dropdown>
+            <ul class="uk-nav uk-dropdown-nav">
+              <li class="uk-active"><a href="#">Активная ссылка</a></li>
+              <li><a href="#">Ссылка</a></li>
+              <li class="uk-nav-header">Заголовок</li>
+              <li><a href="#">Ссылка</a></li>
+              <li><a href="#">Ссылка</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#">Ссылка</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <p uk-margin>
@@ -121,7 +129,7 @@
       <p uk-margin>
         <button class="uk-button uk-button-primary uk-margin-large-right">Далее</button>
         <button class="uk-button uk-button-primary">Далее</button>
-    </p>
+      </p>
     </form>
   </div>
 
